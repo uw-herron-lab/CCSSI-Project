@@ -1,0 +1,12 @@
+# Ignore backup folders
+Neural_Stimulation/NeuralStimBoard-backups/
+Neural_Stimulation/NeuralStimBoard.kicad_sym-backups/
+
+# Ignore backup files
+Neural_Stimulation/*.bak
+
+# Ignore lock files
+Neural_Stimulation/*.lck
+
+# Optional: ignore any other unwanted files or directories
+.DS_Store
