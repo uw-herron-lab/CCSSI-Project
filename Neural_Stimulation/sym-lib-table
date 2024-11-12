@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CSI040_stim")(type "KiCad")(uri "${KIPRJMOD}/CSI040_stim.kicad_sym")(options "")(descr ""))
+)
