@@ -2,6 +2,9 @@
 Neural_Stimulation/NeuralStimBoard-backups/
 Neural_Stimulation/NeuralStimBoard.kicad_sym-backups/
 
+# Ignore auto-saved files
+Neural_Stimulation/#auto_saved_files#
+
 # Ignore backup files
 Neural_Stimulation/*.bak
 
