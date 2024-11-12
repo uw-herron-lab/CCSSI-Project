@@ -386,6 +386,10 @@
     [
       "0df850d8-90a2-4d89-b281-e26bc82d6cd9",
       "Root"
+    ],
+    [
+      "3c0f2b06-344d-49ea-8124-93a4e51bdf5e",
+      "Microcontroller esp32s3"
     ]
   ],
   "text_variables": {}
