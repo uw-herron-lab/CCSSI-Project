@@ -51,8 +51,8 @@
 		)
 		(symbol "CSI080A_0_1"
 			(rectangle
-				(start -40.64 36.83)
-				(end 41.91 -34.29)
+				(start -31.75 31.75)
+				(end 31.75 -31.75)
 				(stroke
 					(width 0)
 					(type default)
@@ -496,7 +496,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -35.56 39.37 270)
+				(at -22.86 33.02 270)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -514,7 +514,7 @@
 				)
 			)
 			(pin power_in line
-				(at -27.94 39.37 270)
+				(at -17.78 33.02 270)
 				(length 2.54)
 				(name "DVSS"
 					(effects
@@ -532,7 +532,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 39.37 270)
+				(at -12.7 33.02 270)
 				(length 2.54)
 				(name "DMUX0"
 					(effects
@@ -550,7 +550,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 39.37 270)
+				(at -7.62 33.02 270)
 				(length 2.54)
 				(name "DMUX1"
 					(effects
@@ -568,7 +568,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 39.37 270)
+				(at -2.54 33.02 270)
 				(length 2.54)
 				(name "AVSS"
 					(effects
@@ -586,7 +586,7 @@
 				)
 			)
 			(pin input line
-				(at 2.54 39.37 270)
+				(at 2.54 33.02 270)
 				(length 2.54)
 				(name "AMUXP"
 					(effects
@@ -604,7 +604,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 39.37 270)
+				(at 7.62 33.02 270)
 				(length 2.54)
 				(name "AMUXM"
 					(effects
@@ -622,7 +622,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 39.37 270)
+				(at 12.7 33.02 270)
 				(length 2.54)
 				(name "AVDD"
 					(effects
@@ -640,7 +640,7 @@
 				)
 			)
 			(pin power_in line
-				(at 26.67 39.37 270)
+				(at 17.78 33.02 270)
 				(length 2.54)
 				(name "AVSS"
 					(effects
@@ -676,7 +676,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 35.56 39.37 270)
+				(at 22.86 33.02 270)
 				(length 2.54)
 				(name "NC"
 					(effects
