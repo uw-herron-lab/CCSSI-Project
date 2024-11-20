@@ -10,3 +10,11 @@ This project aims to design and fabricate a board to implement both CSI040 and C
 
 ## Software Tools
 * KiCad - PCB Design software
+
+## Component Specifications
+### CSI040 MCU
+Dimensions: 5mm x 5mm
+Pin Pitch: ~0.5mm
+### Adafruit ESP32-S3 Feather
+Dimensions: 52.3mm x 22.7mm
+Pin Pitch: 2.5mm
