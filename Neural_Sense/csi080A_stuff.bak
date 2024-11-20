@@ -2,20 +2,20 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "CSI080A"
+	(symbol "CSI080A_resized"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.016 0)
+			(at 0 0 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.6 0.6)
 				)
 			)
 		)
 		(property "Value" "CSI080A_Module"
-			(at 0 -1.016 0)
+			(at 10.668 -4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,10 +49,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "CSI080A_0_1"
+		(symbol "CSI080A_resized_0_1"
 			(rectangle
-				(start -31.75 31.75)
-				(end 31.75 -31.75)
+				(start -2.54 2.54)
+				(end 2.54 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -62,723 +62,723 @@
 				)
 			)
 		)
-		(symbol "CSI080A_1_1"
+		(symbol "CSI080A_resized_1_1"
 			(pin no_connect line
-				(at 44.45 30.48 180)
-				(length 2.54)
+				(at 3.81 2.286 180)
+				(length 1.2)
 				(name "NC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin no_connect line
-				(at 44.45 -27.94 180)
-				(length 2.54)
+				(at 3.81 -2.286 180)
+				(length 1.2)
 				(name "NC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "10"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin no_connect line
-				(at 35.56 -36.83 90)
-				(length 2.54)
+				(at 2.286 -3.81 90)
+				(length 1.2)
 				(name "NC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "11"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 27.94 -36.83 90)
-				(length 2.54)
+				(at 1.778 -3.81 90)
+				(length 1.2)
 				(name "AVSS"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "12"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 21.59 -36.83 90)
-				(length 2.54)
+				(at 1.27 -3.81 90)
+				(length 1.2)
 				(name "AVSSQ"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "13"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 13.97 -36.83 90)
-				(length 2.54)
+				(at 0.762 -3.81 90)
+				(length 1.2)
 				(name "AVDDQ"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "14"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 6.35 -36.83 90)
-				(length 2.54)
+				(at 0.254 -3.81 90)
+				(length 1.2)
 				(name "AVDD"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "15"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -2.54 -36.83 90)
-				(length 2.54)
+				(at -0.254 -3.81 90)
+				(length 1.2)
 				(name "REFP"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "16"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -8.89 -36.83 90)
-				(length 2.54)
+				(at -0.762 -3.81 90)
+				(length 1.2)
 				(name "REFM"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "17"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin no_connect line
-				(at -16.51 -36.83 90)
-				(length 2.54)
+				(at -1.27 -3.81 90)
+				(length 1.2)
 				(name "NC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "18"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -24.13 -36.83 90)
-				(length 2.54)
+				(at -1.778 -3.81 90)
+				(length 1.2)
 				(name "AVSS"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.075 0.075)
 						)
 					)
 				)
 				(number "19"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin unspecified line
-				(at 44.45 22.86 180)
-				(length 2.54)
+				(at 3.81 1.778 180)
+				(length 1.2)
 				(name "E1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin no_connect line
-				(at -34.29 -36.83 90)
-				(length 2.54)
+				(at -2.286 -3.81 90)
+				(length 1.2)
 				(name "NC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "20"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin no_connect line
-				(at -43.18 -27.94 0)
-				(length 2.54)
+				(at -3.81 -2.286 0)
+				(length 1.2)
 				(name "NC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "21"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -43.18 -20.32 0)
-				(length 2.54)
+				(at -3.81 -1.778 0)
+				(length 1.2)
 				(name "RSTN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.075 0.075)
 						)
 					)
 				)
 				(number "22"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -43.18 -15.24 0)
-				(length 2.54)
+				(at -3.81 -1.27 0)
+				(length 1.2)
 				(name "CLK"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "23"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -43.18 -8.89 0)
-				(length 2.54)
+				(at -3.81 -0.762 0)
+				(length 1.2)
 				(name "AVSS"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "24"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at -43.18 -3.81 0)
-				(length 2.54)
+				(at -3.81 -0.254 0)
+				(length 1.2)
 				(name "SO"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "25"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -43.18 3.81 0)
-				(length 2.54)
+				(at -3.81 0.254 0)
+				(length 1.2)
 				(name "SI"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "26"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -43.18 10.16 0)
-				(length 2.54)
+				(at -3.81 0.762 0)
+				(length 1.2)
 				(name "SCK"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "27"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -43.18 17.78 0)
-				(length 2.54)
+				(at -3.81 1.27 0)
+				(length 1.2)
 				(name "CSN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "28"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -43.18 24.13 0)
-				(length 2.54)
+				(at -3.81 1.778 0)
+				(length 1.2)
 				(name "DVDD"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.075 0.075)
 						)
 					)
 				)
 				(number "29"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin unspecified line
-				(at 44.45 16.51 180)
-				(length 2.54)
+				(at 3.81 1.27 180)
+				(length 1.2)
 				(name "E2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin no_connect line
-				(at -43.18 30.48 0)
-				(length 2.54)
+				(at -3.81 2.286 0)
+				(length 1.2)
 				(name "NC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "30"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin no_connect line
-				(at -22.86 33.02 270)
-				(length 2.54)
+				(at -2.286 3.81 270)
+				(length 1.2)
 				(name "NC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "31"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -17.78 33.02 270)
-				(length 2.54)
+				(at -1.778 3.81 270)
+				(length 1.2)
 				(name "DVSS"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.075 0.075)
 						)
 					)
 				)
 				(number "32"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -12.7 33.02 270)
-				(length 2.54)
+				(at -1.27 3.81 270)
+				(length 1.2)
 				(name "DMUX0"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "33"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -7.62 33.02 270)
-				(length 2.54)
+				(at -0.762 3.81 270)
+				(length 1.2)
 				(name "DMUX1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "34"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -2.54 33.02 270)
-				(length 2.54)
+				(at -0.254 3.81 270)
+				(length 1.2)
 				(name "AVSS"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "35"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at 2.54 33.02 270)
-				(length 2.54)
+				(at 0.254 3.81 270)
+				(length 1.2)
 				(name "AMUXP"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "36"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at 7.62 33.02 270)
-				(length 2.54)
+				(at 0.762 3.81 270)
+				(length 1.2)
 				(name "AMUXM"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "37"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 12.7 33.02 270)
-				(length 2.54)
+				(at 1.27 3.81 270)
+				(length 1.2)
 				(name "AVDD"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "38"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 17.78 33.02 270)
-				(length 2.54)
+				(at 1.778 3.81 270)
+				(length 1.2)
 				(name "AVSS"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "39"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin unspecified line
-				(at 44.45 10.16 180)
-				(length 2.54)
+				(at 3.81 0.762 180)
+				(length 1.2)
 				(name "E3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin no_connect line
-				(at 22.86 33.02 270)
-				(length 2.54)
+				(at 2.286 3.81 270)
+				(length 1.2)
 				(name "NC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "40"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin unspecified line
-				(at 44.45 3.81 180)
-				(length 2.54)
+				(at 3.81 0.254 180)
+				(length 1.2)
 				(name "E4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin unspecified line
-				(at 44.45 -2.54 180)
-				(length 2.54)
+				(at 3.81 -0.254 180)
+				(length 1.2)
 				(name "E5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin unspecified line
-				(at 44.45 -8.89 180)
-				(length 2.54)
+				(at 3.81 -0.762 180)
+				(length 1.2)
 				(name "E6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin unspecified line
-				(at 44.45 -15.24 180)
-				(length 2.54)
+				(at 3.81 -1.27 180)
+				(length 1.2)
 				(name "E7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 			)
 			(pin unspecified line
-				(at 44.45 -20.32 180)
-				(length 2.54)
+				(at 3.81 -1.778 180)
+				(length 1.2)
 				(name "E8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
 				(number "9"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.12 0.12)
 						)
 					)
 				)
