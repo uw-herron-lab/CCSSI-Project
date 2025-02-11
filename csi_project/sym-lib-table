@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "csi080")(type "KiCad")(uri "${KIPRJMOD}/csi080.kicad_sym")(options "")(descr ""))
+  (lib (name "adafruit_feather_esp32")(type "KiCad")(uri "${KIPRJMOD}/adafruit_feather_esp32.kicad_sym")(options "")(descr ""))
+)
