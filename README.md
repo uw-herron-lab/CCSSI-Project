@@ -10,3 +10,6 @@ This project aims to design and fabricate a board to implement both CSI040 and C
 
 ## Software Tools
 * KiCad - PCB Design software
+
+## Instructions
+* To import PCB Designs, clone repo and in KiCAD, open new project and select the .pro file.
