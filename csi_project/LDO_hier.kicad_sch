@@ -1442,7 +1442,7 @@
 				)
 			)
 		)
-		(property "Value" "LTC3035EDDBPBF"
+		(property "Value" "LTC3035EDDBTRMPBF"
 			(at 133.35 83.82 0)
 			(effects
 				(font

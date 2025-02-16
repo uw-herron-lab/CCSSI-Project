@@ -4220,7 +4220,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e845bbdc-135a-413a-b87f-9f2f53546268")
-		(property "Sheetname" "LDO: LTC3035EDDBPBF"
+		(property "Sheetname" "LDO: LTC3035EDDBTRMPBF"
 			(at 149.86 121.2084 0)
 			(effects
 				(font
