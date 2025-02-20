@@ -1,4 +1,4 @@
-24656316142688756
+24702418446183989
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65813,15 +65813,8 @@ Yellow 5381 Series LED
 0
 2
 2
-LT3023IDDTRPBF
-DFN-10_DD
-
-
-0
-11
-11
 LTC3035EDDBPBF
-DFN-8_DDB
+LTC3035EDDBPBF
 
 
 0
@@ -91062,6 +91055,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SN74LV1T34DBV
+SN74LV1T34DBV
+SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+5
+5
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

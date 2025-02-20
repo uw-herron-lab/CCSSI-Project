@@ -1355,76 +1355,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 93.98 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67c966e5-362d-40f3-a853-4280ba77f8a1")
-		(property "Reference" "C10"
-			(at 97.79 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 97.79 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 94.9452 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23cdb184-7a09-42ad-b4e6-668f0b40a43b")
-		)
-		(pin "2"
-			(uuid "fd947704-8ed1-4eeb-a4d8-5a90b8b94918")
-		)
-		(instances
-			(project "csi_project"
-				(path "/d64cee10-711b-40ad-bbb3-ff5a1e2c695b/e845bbdc-135a-413a-b87f-9f2f53546268"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LTC3035EDDBPBF:LTC3035EDDBPBF")
 		(at 163.83 101.6 180)
 		(unit 1)
@@ -1432,25 +1362,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "791061e0-2802-42f9-a51a-d6c2a5b51cb3")
-		(property "Reference" "U1"
-			(at 133.35 81.28 0)
+		(uuid "65aebdcd-4460-4763-865c-7cffda3c9457")
+		(property "Reference" "U3"
+			(at 133.35 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LTC3035EDDBTRMPBF"
-			(at 133.35 83.82 0)
+		(property "Value" "LTC3035EDDBPBF"
+			(at 133.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LTC3035EDDBPBF:DFN-8_DDB"
+		(property "Footprint" "LTC3035EDDBPBF:LTC3035EDDBPBF"
 			(at 163.83 101.6 0)
 			(effects
 				(font
@@ -1578,37 +1507,107 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "c3d2a275-c70f-4adc-b567-5e92dbfbea0a")
+		(pin "8"
+			(uuid "7430cf5f-e9ac-4455-ae80-675a39c42249")
 		)
 		(pin "3"
-			(uuid "dc24c535-3120-44f9-ba60-1875d24337ec")
-		)
-		(pin "4"
-			(uuid "743c264f-85de-458e-b5ce-852d590b36c5")
-		)
-		(pin "1"
-			(uuid "1ea51a78-6e6f-4359-9ea6-b8d3ee85be3f")
+			(uuid "ef35bfd0-3bd7-47f8-8a67-43511013835d")
 		)
 		(pin "2"
-			(uuid "a72bacc2-6d73-4820-b58c-cea51485911b")
+			(uuid "15d6b9ed-da45-4f50-888a-8136674152a5")
 		)
-		(pin "8"
-			(uuid "0b590bb2-7bd0-4059-9109-1f7a1ffbb346")
-		)
-		(pin "6"
-			(uuid "b36a53b7-2089-41c5-85a1-54dd68fb9b39")
-		)
-		(pin "7"
-			(uuid "7bad6bb1-7e3d-4435-9a40-8d00fe347496")
+		(pin "4"
+			(uuid "17ba0d56-bd0d-4012-96a2-7916e2aef4a1")
 		)
 		(pin "9"
-			(uuid "9a90d160-4735-41f3-a77a-e3c183fd5c78")
+			(uuid "9331e5e0-8017-4214-89b0-13b2d44c754b")
+		)
+		(pin "1"
+			(uuid "c2e7f325-22a5-4af3-a284-ec96026f02e2")
+		)
+		(pin "6"
+			(uuid "d461e9d8-9cb0-4612-b80f-cf6e0f2277ce")
+		)
+		(pin "5"
+			(uuid "dc9cec70-1de1-49c2-9198-d0b754d7b3fc")
+		)
+		(pin "7"
+			(uuid "fafdf261-83ff-4822-82cc-60d7ab3f48d8")
+		)
+		(instances
+			(project ""
+				(path "/d64cee10-711b-40ad-bbb3-ff5a1e2c695b/e845bbdc-135a-413a-b87f-9f2f53546268"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 93.98 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67c966e5-362d-40f3-a853-4280ba77f8a1")
+		(property "Reference" "C10"
+			(at 97.79 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 97.79 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 94.9452 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23cdb184-7a09-42ad-b4e6-668f0b40a43b")
+		)
+		(pin "2"
+			(uuid "fd947704-8ed1-4eeb-a4d8-5a90b8b94918")
 		)
 		(instances
 			(project "csi_project"
 				(path "/d64cee10-711b-40ad-bbb3-ff5a1e2c695b/e845bbdc-135a-413a-b87f-9f2f53546268"
-					(reference "U1")
+					(reference "C10")
 					(unit 1)
 				)
 			)

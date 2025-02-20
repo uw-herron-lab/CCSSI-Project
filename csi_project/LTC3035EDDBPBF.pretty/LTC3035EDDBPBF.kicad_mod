@@ -1,4 +1,4 @@
-(footprint "DFN-8_DDB"
+(footprint "LTC3035EDDBPBF"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "DFN-8_DDB"
+	(property "Value" "LTC3035EDDBPBF"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "3f956383-2b7d-4eaf-83ed-72227049091f")
