@@ -1766,102 +1766,6 @@
 				)
 			)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 43.18 64.77)
@@ -2001,6 +1905,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 34.29) (xy 153.67 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f99154-7865-4792-89d6-64dc7295702f")
+	)
+	(wire
+		(pts
 			(xy 43.18 72.39) (xy 59.69 72.39)
 		)
 		(stroke
@@ -2028,6 +1942,16 @@
 			(type default)
 		)
 		(uuid "09aec13c-1a42-4446-8627-8437c7ba146b")
+	)
+	(wire
+		(pts
+			(xy 30.48 158.75) (xy 30.48 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a309a50-4630-4b54-a674-157c65055748")
 	)
 	(wire
 		(pts
@@ -2118,6 +2042,16 @@
 			(type default)
 		)
 		(uuid "2a769d4a-f4e7-411f-bb3c-38faa8e89811")
+	)
+	(wire
+		(pts
+			(xy 151.13 38.1) (xy 151.13 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b568061-ab5c-4918-8612-a5893ca236f2")
 	)
 	(wire
 		(pts
@@ -2258,6 +2192,16 @@
 			(type default)
 		)
 		(uuid "43154a3d-cd25-4fb8-bf27-f851590ae21a")
+	)
+	(wire
+		(pts
+			(xy 26.67 162.56) (xy 26.67 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435e87a1-35e4-45bb-9fbd-c3ee9f767621")
 	)
 	(wire
 		(pts
@@ -2431,6 +2375,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 41.91) (xy 148.59 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69368b50-578f-484d-aef8-41ffcc9f5b71")
+	)
+	(wire
+		(pts
 			(xy 234.95 102.87) (xy 251.46 102.87)
 		)
 		(stroke
@@ -2591,6 +2545,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 34.29) (xy 153.67 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9299688a-950f-4dd5-a8f8-9c18014b1849")
+	)
+	(wire
+		(pts
 			(xy 77.47 80.01) (xy 87.63 80.01)
 		)
 		(stroke
@@ -2731,6 +2695,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 162.56) (xy 26.67 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77a885d-a690-4be7-a442-1998a5c6b790")
+	)
+	(wire
+		(pts
 			(xy 67.31 95.25) (xy 72.39 95.25)
 		)
 		(stroke
@@ -2861,6 +2835,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 154.94) (xy 35.56 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa2d1b4-c1da-4b17-81ab-e2af053447e4")
+	)
+	(wire
+		(pts
 			(xy 194.31 97.79) (xy 181.61 97.79)
 		)
 		(stroke
@@ -2901,6 +2885,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 38.1) (xy 151.13 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d81ca814-adea-4c1e-9112-ce51eddd221f")
+	)
+	(wire
+		(pts
 			(xy 43.18 102.87) (xy 43.18 110.49)
 		)
 		(stroke
@@ -2908,16 +2902,6 @@
 			(type default)
 		)
 		(uuid "da47477d-ca43-4df6-b765-b5d3f366b58f")
-	)
-	(wire
-		(pts
-			(xy 153.67 139.7) (xy 153.67 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1b18ed-e2d6-4a8b-b70d-42c6b65e1c2e")
 	)
 	(wire
 		(pts
@@ -3051,6 +3035,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 154.94) (xy 35.56 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c16975-bd21-442e-bfea-df241cd4aa18")
+	)
+	(wire
+		(pts
 			(xy 194.31 69.85) (xy 181.61 69.85)
 		)
 		(stroke
@@ -3058,6 +3052,26 @@
 			(type default)
 		)
 		(uuid "f41dac39-40c9-4d3c-b099-571d60d4f19d")
+	)
+	(wire
+		(pts
+			(xy 30.48 41.91) (xy 148.59 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4319023-ce22-49d4-a085-ea318b5b0878")
+	)
+	(wire
+		(pts
+			(xy 153.67 139.7) (xy 153.67 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58b83cc-100d-4d53-80b4-02f62f6dbb5b")
 	)
 	(wire
 		(pts
@@ -3101,6 +3115,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 158.75) (xy 30.48 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd1e8776-6ad5-473e-bc59-8bfa32e00de6")
+	)
+	(wire
+		(pts
 			(xy 67.31 80.01) (xy 72.39 80.01)
 		)
 		(stroke
@@ -3108,6 +3132,72 @@
 			(type default)
 		)
 		(uuid "ff566dd8-6589-4cae-82e2-d15389f2b483")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 251.46 118.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0fc39094-1e08-4a5e-9835-b1589114fb95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.46 124.9657 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 153.67 146.05 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9e3b0cf-fa07-463f-beaa-9a5783aca880")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 152.9057 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 43.18 120.65 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d897e536-ec2d-4a5a-9c84-bb360f156062")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 127.5057 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "CSI040_stim:CSI040_Chip")
@@ -3987,72 +4077,6 @@
 			(project "NeuralStimBoard"
 				(path "/0df850d8-90a2-4d89-b281-e26bc82d6cd9"
 					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 251.46 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c435a3a-e82a-49b4-8c73-21d6e10287b4")
-		(property "Reference" "#PWR01"
-			(at 251.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 251.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa828d5e-0363-4ed4-9aa5-3e11cc9c1402")
-		)
-		(instances
-			(project ""
-				(path "/0df850d8-90a2-4d89-b281-e26bc82d6cd9"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5207,7 +5231,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 146.05 31.75 0)
+		(at 271.78 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -5215,7 +5239,7 @@
 		(dnp no)
 		(uuid "84daa6e9-1259-4580-85e2-6107c7664907")
 		(property "Reference" "JP1"
-			(at 146.05 28.194 0)
+			(at 271.78 150.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5247,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Small_Open"
-			(at 146.05 27.94 0)
+			(at 271.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 31.75 0)
+			(at 271.78 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +5265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 31.75 0)
+			(at 271.78 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5274,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 146.05 31.75 0)
+			(at 271.78 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,72 +5365,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 153.67 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93ffc733-7d52-4e1e-967f-e5cae687f4fd")
-		(property "Reference" "#PWR03"
-			(at 153.67 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 153.67 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a68e773-ee91-407d-9a46-018d6646d88f")
-		)
-		(instances
-			(project "NeuralStimBoard.kicad_sym"
-				(path "/0df850d8-90a2-4d89-b281-e26bc82d6cd9"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 91.44 87.63 90)
 		(unit 1)
@@ -5468,72 +5426,6 @@
 			(project "NeuralStimBoard"
 				(path "/0df850d8-90a2-4d89-b281-e26bc82d6cd9"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 43.18 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9846b2d8-c09f-4005-a00f-21b4ef6f8992")
-		(property "Reference" "#PWR02"
-			(at 43.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c9b02a9-51da-4f44-8eb8-a375864b6a7c")
-		)
-		(instances
-			(project "NeuralStimBoard.kicad_sym"
-				(path "/0df850d8-90a2-4d89-b281-e26bc82d6cd9"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7023,6 +6915,44 @@
 		)
 	)
 	(sheet
+		(at 201.93 138.43)
+		(size 15.24 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2af15af9-f56a-408a-9186-69deac584b7e")
+		(property "Sheetname" "power"
+			(at 201.93 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 201.93 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NeuralStimBoard.kicad_sym"
+				(path "/0df850d8-90a2-4d89-b281-e26bc82d6cd9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 80.01 151.13)
 		(size 19.05 17.78)
 		(fields_autoplaced yes)
@@ -7051,6 +6981,36 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "MOSI" input
+			(at 80.01 154.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eca6dc9d-172b-4f64-b7ef-19296a7654da")
+		)
+		(pin "MISO" input
+			(at 80.01 158.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "89486f0d-2829-4d3d-9c50-626914f373a8")
+		)
+		(pin "SCK" input
+			(at 80.01 162.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0aa674ad-6f3e-48af-9445-e5253f5b23d3")
 		)
 		(instances
 			(project "NeuralStimBoard.kicad_sym"

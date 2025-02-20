@@ -390,6 +390,10 @@
     [
       "3c0f2b06-344d-49ea-8124-93a4e51bdf5e",
       "Microcontroller esp32s3"
+    ],
+    [
+      "2af15af9-f56a-408a-9186-69deac584b7e",
+      "power"
     ]
   ],
   "text_variables": {}

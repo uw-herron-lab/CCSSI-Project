@@ -573,6 +573,72 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 104.14 97.79) (xy 123.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5a4e67-e6aa-4feb-8d7a-87810e0f3131")
+	)
+	(wire
+		(pts
+			(xy 104.14 95.25) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b924c5-b46d-430d-97c5-1cc3bd091a35")
+	)
+	(wire
+		(pts
+			(xy 104.14 100.33) (xy 123.19 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7999f249-94fb-4c76-bf3e-31facc2e3565")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 104.14 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44925862-5c80-4c99-82d9-ffd9992bbd28")
+	)
+	(hierarchical_label "SCK"
+		(shape input)
+		(at 104.14 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47705e04-a1ff-4070-a95a-8557f9a37dcb")
+	)
+	(hierarchical_label "MISO"
+		(shape input)
+		(at 104.14 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbb79bdc-118b-4803-ae52-7c9cc12eac95")
+	)
 	(symbol
 		(lib_id "CSI040_stim:Adafruit_Feather_ESP32S3")
 		(at 137.16 88.9 0)
@@ -599,7 +665,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Adafruit_Feather_ESP32S3:Adafruit_Feather_ESP32S3"
 			(at 137.16 88.9 0)
 			(effects
 				(font
