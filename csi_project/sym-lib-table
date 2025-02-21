@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "csi080")(type "KiCad")(uri "${KIPRJMOD}/csi080.kicad_sym")(options "")(descr ""))
   (lib (name "adafruit_feather_esp32")(type "KiCad")(uri "${KIPRJMOD}/adafruit_feather_esp32.kicad_sym")(options "")(descr ""))
+  (lib (name "Custom Caps n Res")(type "KiCad")(uri "${KIPRJMOD}/Custom Caps n Res.kicad_sym")(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-24702418446183989
+24723299783053356
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2565,6 +2565,34 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+C3225X8R1E106K250AC
+CAP_C3225X8R1E106K250AC
+
+
+0
+2
+2
+CL05B104KP5NNNC
+CL05B104KP5NNNC
+
+
+0
+2
+2
+CL10B105KP8NNNC
+CL10B105KP8NNNC
+
+
+0
+2
+2
+CRCW080540K0FKEA
+CRCW080540K0FKEA
+
+
 0
 2
 2
@@ -55194,6 +55222,48 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+Custom Caps n Res
+CAP_C3225X8R1E106K250AC
+
+
+0
+2
+2
+Custom Caps n Res
+CL05B104KP5NNNC
+
+
+0
+2
+2
+Custom Caps n Res
+CL10B105KP8NNNC
+
+
+0
+2
+2
+Custom Caps n Res
+CRCW080540K0FKEA
+
+
+0
+2
+2
+Custom Caps n Res
+RC0805FR-07210KL
+
+
+0
+2
+2
+Custom Caps n Res
+SMD-RES-100K-5_-1_16W_0402_.pretty
+
+
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -87513,6 +87583,13 @@ Potentiometer vertical vishay
 0
 3
 3
+RC0805FR-07210KL
+RC0805FR-07210KL
+
+
+0
+2
+2
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -91055,6 +91132,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SMD-RES-100K-5_-1_16W_0402_
+SMD-RES-100K-5_-1_16W_0402_.pretty
+
+
+0
+2
+2
 SN74LV1T34DBV
 SN74LV1T34DBV
 SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
