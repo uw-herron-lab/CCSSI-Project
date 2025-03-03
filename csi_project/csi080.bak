@@ -1135,7 +1135,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -10.16 0)
+				(at -19.05 -12.7 0)
 				(length 2.54)
 				(name "CLK"
 					(effects
@@ -1171,7 +1171,7 @@
 				)
 			)
 			(pin output line
-				(at -19.05 -12.7 0)
+				(at -19.05 -15.24 0)
 				(length 2.54)
 				(name "S0"
 					(effects
@@ -1189,7 +1189,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -15.24 0)
+				(at -19.05 -17.78 0)
 				(length 2.54)
 				(name "SI"
 					(effects
@@ -1207,7 +1207,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -19.05 -17.78 0)
+				(at -19.05 -20.32 0)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -1225,7 +1225,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -20.32 0)
+				(at -19.05 -10.16 0)
 				(length 2.54)
 				(name "CSN"
 					(effects
