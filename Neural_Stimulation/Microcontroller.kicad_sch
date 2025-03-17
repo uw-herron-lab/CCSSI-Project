@@ -575,6 +575,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 102.87) (xy 163.83 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c456294-1eed-4d25-ad3a-6a390317510f")
+	)
+	(wire
+		(pts
 			(xy 104.14 97.79) (xy 123.19 97.79)
 		)
 		(stroke
@@ -626,6 +636,18 @@
 			(justify right)
 		)
 		(uuid "47705e04-a1ff-4070-a95a-8557f9a37dcb")
+	)
+	(hierarchical_label "CSN"
+		(shape input)
+		(at 163.83 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4df6890f-72f6-4484-a012-2542b8e1ffec")
 	)
 	(hierarchical_label "MISO"
 		(shape input)

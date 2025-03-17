@@ -394,6 +394,10 @@
     [
       "2af15af9-f56a-408a-9186-69deac584b7e",
       "power"
+    ],
+    [
+      "c6b5be29-d325-4bc3-a192-c8234eb8b7a1",
+      "level_shifter"
     ]
   ],
   "text_variables": {}
