@@ -16,14 +16,14 @@ void setup() {
   //   digitalWrite(NEOPIXEL_POWER, HIGH);
   // #endif
 
-  delay(2000); // Wait for Serial Monitor to connect
-  Serial.println(" ");
-  Serial.println(" ");
-  Serial.println("Initializing NeoPixel...");
+  // delay(2000); // Wait for Serial Monitor to connect
+  // Serial.println(" ");
+  // Serial.println(" ");
+  // Serial.println("Initializing NeoPixel...");
   pixels.begin();
-  Serial.println("NeoPixel initialized!"); // Check if it's truly initialized
-  Serial.println(" ");
-  pixels.setBrightness(255); // not so bright
+  // Serial.println("NeoPixel initialized!"); // Check if it's truly initialized
+  // Serial.println(" ");
+  pixels.setBrightness(20); // not so bright
 
   // pixels.setPixelColor(0, pixels.Color(255, 0, 0)); // Set to Red
   // pixels.show();
