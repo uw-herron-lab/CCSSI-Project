@@ -17,21 +17,11 @@ void loop() {
   btn = digitalRead(BUTTON);
   if (btn == HIGH)
   {
-    // Using Input_Pullup
-    // digitalWrite(LED_BUILTIN, HIGH);
-    // Serial.println("Button pressed: LED on!");
-
-    // Using Input
     digitalWrite(LED_BUILTIN, LOW);
     Serial.println("Button not pressed: LED off!");
   }
   else
   {
-    // Using Input_Pullup
-    // digitalWrite(LED_BUILTIN, LOW);
-    // Serial.println("Button not pressed: LED off!");
-
-    // Using Input
     digitalWrite(LED_BUILTIN, HIGH);
     Serial.println("Button pressed: LED on!");
   }
