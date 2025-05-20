@@ -11,7 +11,8 @@ This project aims to design and fabricate a board to implement both CSI040 and C
 * LTC3035EDDB#TRMPBF - Level Dropout Regulator (3V3 -> 1.8V)
 
 ## Software Tools
-* KiCad - PCB Design software
+* KiCad - PCB Design
+* Arduino IDE / VSCode (PlatformIO) - Code prototyping for SPI data transfer
 
-## Instructions
+## To Run
 * To import PCB Designs, clone repo and in KiCAD, Open Project and select the .pro file.
