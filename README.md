@@ -1,4 +1,4 @@
-# Cirtec Integration Project
+# CSI040-CSI080 Integration Project
 
 ## Description
 This project aims to design and fabricate a board to implement both CSI040 and CSI080 chips from Cirtec Medical, for a medical device to stimulate and sense evoked potentials in the brain (via invasive probe).
