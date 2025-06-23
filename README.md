@@ -1,4 +1,4 @@
-# CSI040-CSI080 Integration Project
+# CSI080/CSI040 Sense/Stim Integration (CCSSI) Project
 
 ## Description
 This project aims to design and fabricate a board to implement both CSI040 and CSI080 chips from Cirtec Medical, for a medical device to stimulate and sense evoked potentials in the brain (via invasive probe).
